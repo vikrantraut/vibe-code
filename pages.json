@@ -1,0 +1,224 @@
+{
+  "baseUrl": "http://localhost:3000",
+  "generatedAt": "2025-02-19",
+  "pages": [
+    {
+      "path": "/",
+      "fullUrl": "http://localhost:3000/",
+      "type": "home",
+      "title": "HealthyBowl – Healthy salads, made simple",
+      "description": "Discover easy, nutritious salad recipes—from chicken salads to quick 10-minute bowls. Fresh ingredients, clear steps, real results.",
+      "sections": [
+        {
+          "id": "hero",
+          "heading": "Healthy salads, made simple",
+          "subtext": "Discover easy, nutritious salad recipes—from chicken salads to quick 10-minute bowls. Fresh ingredients, clear steps, real results."
+        },
+        {
+          "id": "featured",
+          "heading": "Featured recipes",
+          "subtext": "Hand-picked salads you'll love"
+        },
+        {
+          "id": "categories",
+          "heading": "Browse by category",
+          "subtext": "Find the right salad for your goal"
+        },
+        {
+          "id": "trending",
+          "heading": "Trending now",
+          "subtext": "Popular picks this week"
+        },
+        {
+          "id": "newsletter",
+          "heading": "Newsletter signup"
+        }
+      ]
+    },
+    {
+      "path": "/recipes",
+      "fullUrl": "http://localhost:3000/recipes",
+      "type": "recipes_listing",
+      "title": "Salad Recipes – Healthy, Chicken, Vegan & Quick Ideas",
+      "description": "Browse our collection of healthy salad recipes. Filter by category, calories, prep time, and diet. Find chicken salads, vegan bowls, and 10-minute options.",
+      "queryParams": []
+    },
+    {
+      "path": "/recipes",
+      "fullUrl": "http://localhost:3000/recipes?category=healthy",
+      "type": "recipes_listing",
+      "title": "Salad Recipes – Healthy, Chicken, Vegan & Quick Ideas",
+      "description": "Browse our collection of healthy salad recipes. Filter by category, calories, prep time, and diet.",
+      "queryParams": { "category": "healthy" },
+      "categoryLabel": "Healthy Salads"
+    },
+    {
+      "path": "/recipes",
+      "fullUrl": "http://localhost:3000/recipes?category=chicken",
+      "type": "recipes_listing",
+      "title": "Salad Recipes – Healthy, Chicken, Vegan & Quick Ideas",
+      "description": "Browse our collection of healthy salad recipes. Filter by category, calories, prep time, and diet.",
+      "queryParams": { "category": "chicken" },
+      "categoryLabel": "Chicken Salads"
+    },
+    {
+      "path": "/recipes",
+      "fullUrl": "http://localhost:3000/recipes?category=weight-loss",
+      "type": "recipes_listing",
+      "title": "Salad Recipes – Healthy, Chicken, Vegan & Quick Ideas",
+      "description": "Browse our collection of healthy salad recipes. Filter by category, calories, prep time, and diet.",
+      "queryParams": { "category": "weight-loss" },
+      "categoryLabel": "Weight Loss Salads"
+    },
+    {
+      "path": "/recipes",
+      "fullUrl": "http://localhost:3000/recipes?category=high-protein",
+      "type": "recipes_listing",
+      "title": "Salad Recipes – Healthy, Chicken, Vegan & Quick Ideas",
+      "description": "Browse our collection of healthy salad recipes. Filter by category, calories, prep time, and diet.",
+      "queryParams": { "category": "high-protein" },
+      "categoryLabel": "High Protein Salads"
+    },
+    {
+      "path": "/recipes",
+      "fullUrl": "http://localhost:3000/recipes?category=quick",
+      "type": "recipes_listing",
+      "title": "Salad Recipes – Healthy, Chicken, Vegan & Quick Ideas",
+      "description": "Browse our collection of healthy salad recipes. Filter by category, calories, prep time, and diet.",
+      "queryParams": { "category": "quick" },
+      "categoryLabel": "Quick 10-Minute Salads"
+    },
+    {
+      "path": "/recipes",
+      "fullUrl": "http://localhost:3000/recipes?category=vegan",
+      "type": "recipes_listing",
+      "title": "Salad Recipes – Healthy, Chicken, Vegan & Quick Ideas",
+      "description": "Browse our collection of healthy salad recipes. Filter by category, calories, prep time, and diet.",
+      "queryParams": { "category": "vegan" },
+      "categoryLabel": "Vegan Salads"
+    },
+    {
+      "path": "/recipes/mediterranean-chicken-salad",
+      "fullUrl": "http://localhost:3000/recipes/mediterranean-chicken-salad",
+      "type": "recipe_detail",
+      "title": "Mediterranean Chicken Salad",
+      "description": "Grilled chicken with olives, feta, cucumber, and lemon-herb dressing. A protein-rich lunch that tastes like sunshine.",
+      "slug": "mediterranean-chicken-salad",
+      "recipeId": "1"
+    },
+    {
+      "path": "/recipes/avocado-quinoa-power-bowl",
+      "fullUrl": "http://localhost:3000/recipes/avocado-quinoa-power-bowl",
+      "type": "recipe_detail",
+      "title": "Avocado Quinoa Power Bowl",
+      "description": "Creamy avocado, fluffy quinoa, black beans, and lime. A high-protein vegan salad that keeps you full for hours.",
+      "slug": "avocado-quinoa-power-bowl",
+      "recipeId": "2"
+    },
+    {
+      "path": "/recipes/greek-salad-with-grilled-chicken",
+      "fullUrl": "http://localhost:3000/recipes/greek-salad-with-grilled-chicken",
+      "type": "recipe_detail",
+      "title": "Greek Salad with Grilled Chicken",
+      "description": "Classic Greek salad topped with grilled chicken. Fresh, simple, and satisfying.",
+      "slug": "greek-salad-with-grilled-chicken",
+      "recipeId": "3"
+    },
+    {
+      "path": "/recipes/kale-caesar-with-chicken",
+      "fullUrl": "http://localhost:3000/recipes/kale-caesar-with-chicken",
+      "type": "recipe_detail",
+      "title": "Kale Caesar with Chicken",
+      "description": "Kale, romaine, and grilled chicken with a light Caesar-style dressing.",
+      "slug": "kale-caesar-with-chicken",
+      "recipeId": "4"
+    },
+    {
+      "path": "/recipes/cucumber-tomato-weight-loss-salad",
+      "fullUrl": "http://localhost:3000/recipes/cucumber-tomato-weight-loss-salad",
+      "type": "recipe_detail",
+      "title": "Cucumber Tomato Weight Loss Salad",
+      "description": "Light, refreshing cucumber and tomato salad perfect for weight loss goals.",
+      "slug": "cucumber-tomato-weight-loss-salad",
+      "recipeId": "5"
+    },
+    {
+      "path": "/recipes/spicy-thai-chicken-salad",
+      "fullUrl": "http://localhost:3000/recipes/spicy-thai-chicken-salad",
+      "type": "recipe_detail",
+      "title": "Spicy Thai Chicken Salad",
+      "description": "Bold Thai flavors with shredded chicken, peanuts, and lime.",
+      "slug": "spicy-thai-chicken-salad",
+      "recipeId": "6"
+    },
+    {
+      "path": "/recipes/roasted-vegetable-vegan-bowl",
+      "fullUrl": "http://localhost:3000/recipes/roasted-vegetable-vegan-bowl",
+      "type": "recipe_detail",
+      "title": "Roasted Vegetable Vegan Bowl",
+      "description": "Roasted seasonal vegetables over greens with a tahini drizzle.",
+      "slug": "roasted-vegetable-vegan-bowl",
+      "recipeId": "7"
+    },
+    {
+      "path": "/recipes/berry-spinach-salad",
+      "fullUrl": "http://localhost:3000/recipes/berry-spinach-salad",
+      "type": "recipe_detail",
+      "title": "Berry Spinach Salad with Feta",
+      "description": "Fresh spinach, strawberries, blueberries, and feta with a light balsamic glaze. Sweet, tangy, and nutritious.",
+      "slug": "berry-spinach-salad",
+      "recipeId": "8"
+    },
+    {
+      "path": "/recipes/high-protein-grilled-chicken-salad",
+      "fullUrl": "http://localhost:3000/recipes/high-protein-grilled-chicken-salad",
+      "type": "recipe_detail",
+      "title": "High-Protein Grilled Chicken Salad",
+      "description": "Grilled chicken over mixed greens with avocado, cherry tomatoes, and cucumber. A protein-packed meal with 38g protein per serving.",
+      "slug": "high-protein-grilled-chicken-salad",
+      "recipeId": "9"
+    },
+    {
+      "path": "/recipes/avocado-chickpea-healthy-salad",
+      "fullUrl": "http://localhost:3000/recipes/avocado-chickpea-healthy-salad",
+      "type": "recipe_detail",
+      "title": "Avocado Chickpea Healthy Salad",
+      "description": "Creamy avocado and boiled chickpeas with lime-cumin dressing. Simple, vegan, and ready in 10 minutes.",
+      "slug": "avocado-chickpea-healthy-salad",
+      "recipeId": "10"
+    },
+    {
+      "path": "/recipes/classic-creamy-chicken-salad",
+      "fullUrl": "http://localhost:3000/recipes/classic-creamy-chicken-salad",
+      "type": "recipe_detail",
+      "title": "Classic Creamy Chicken Salad",
+      "description": "Shredded chicken with Greek yogurt, mayo, celery, and Dijon. Perfect for sandwiches or lettuce wraps.",
+      "slug": "classic-creamy-chicken-salad",
+      "recipeId": "11"
+    },
+    {
+      "path": "/recipes/weight-loss-cucumber-spinach-salad",
+      "fullUrl": "http://localhost:3000/recipes/weight-loss-cucumber-spinach-salad",
+      "type": "recipe_detail",
+      "title": "Weight-Loss Cucumber Spinach Salad",
+      "description": "Light spinach and cucumber salad with apple cider vinegar dressing. Under 180 calories—ideal for low-calorie days.",
+      "slug": "weight-loss-cucumber-spinach-salad",
+      "recipeId": "12"
+    },
+    {
+      "path": "/recipes/mediterranean-quinoa-salad",
+      "fullUrl": "http://localhost:3000/recipes/mediterranean-quinoa-salad",
+      "type": "recipe_detail",
+      "title": "Mediterranean Quinoa Salad",
+      "description": "Fluffy quinoa with cucumber, tomatoes, olives, and feta. A satisfying 14g protein bowl with Mediterranean flair.",
+      "slug": "mediterranean-quinoa-salad",
+      "recipeId": "13"
+    }
+  ],
+  "summary": {
+    "totalPages": 22,
+    "home": 1,
+    "recipesListing": 7,
+    "recipeDetail": 13
+  }
+}

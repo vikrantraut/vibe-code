@@ -1,0 +1,14 @@
+fileignoreconfig:
+- filename: src/data/recipes.ts
+  checksum: e77c1e45de7e3af0c2cb254b68e5b5caee9b2952c71d13eec3ce52d6caf614e9
+- filename: package-lock.json
+  checksum: 53efb79cc2370c01a412644c5a31ffa40428b3b139093b4a64932a0e1fefcde9
+- filename: src/components/RecipeListing.tsx
+  checksum: 70f955e9936f2bd3798ddc41272aac2299b70d7274b6c3618aee29195330de4a
+- filename: src/app/page.tsx
+  checksum: d9149c5824b27d88be843a9d9117523421a8aa5499cc606746626f1c9d86ba96
+- filename: src/lib/contentstack.ts
+  checksum: 6e36e4538507b9449194ef8343bef621d482e6102a512706af812f403893610d
+- filename: src/app/recipes/[slug]/page.tsx
+  checksum: ee6cd9f76517203d6221b0ea00494c83546d495ad615831f155a33a49d6db4bf
+version: "1.0"

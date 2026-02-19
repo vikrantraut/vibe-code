@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="bg7" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fefce8"/>
+      <stop offset="100%" style="stop-color:#fef9c3"/>
+    </linearGradient>
+    <filter id="shadow7"><feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.12"/></filter>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg7)"/>
+  <ellipse cx="400" cy="300" rx="200" ry="130" fill="#eab308" opacity="0.25" filter="url(#shadow7)"/>
+  <circle cx="380" cy="270" r="55" fill="#84cc16"/>
+  <circle cx="420" cy="290" r="50" fill="#65a30d"/>
+  <circle cx="360" cy="320" r="40" fill="#ca8a04"/>
+  <circle cx="440" cy="310" r="45" fill="#a16207"/>
+  <circle cx="400" cy="300" r="25" fill="#facc15"/>
+  <text x="400" y="420" font-family="system-ui,sans-serif" font-size="24" fill="#78716c" text-anchor="middle">Mediterranean Quinoa Salad</text>
+</svg>
