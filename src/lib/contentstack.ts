@@ -33,7 +33,7 @@ export function getAssetUrl(
     return fallback ?? "";
   }
   if (typeof field === "string") {
-    return field || fallback ?? "";
+    return field || (fallback ?? "");
   }
   if (field.url) {
     return field.url;
