@@ -1,0 +1,25 @@
+name: Notify Slack on Merge
+
+on:
+  pull_request:
+    types:
+      - closed
+
+jobs:
+  notify:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Send merged PR details to Contentstack Automate
+        run: |
+          curl -X POST "${{ secrets.CONTENTSTACK_WEBHOOK_URL }}" \
+          -H "Content-Type: application/json" \
+          -d '{
+            "repository": "${{ github.repository }}",
+            "branch": "${{ github.event.pull_request.base.ref }}",
+            "title": "${{ github.event.pull_request.title }}",
+            "merged_by": "${{ github.event.pull_request.merged_by.login }}",
+            "author": "${{ github.event.pull_request.user.login }}",
+            "pr_url": "${{ github.event.pull_request.html_url }}"
+          }'
